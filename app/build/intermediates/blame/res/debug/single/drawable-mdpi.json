@@ -1,0 +1,14 @@
+[
+    {
+        "merged": "E:\\AndroidGitCode\\PayUmsAIDL\\app\\build\\intermediates\\res\\merged\\debug\\drawable-mdpi\\ic_launcher.png",
+        "source": "E:\\AndroidGitCode\\PayUmsAIDL\\app\\src\\main\\res\\drawable-mdpi\\ic_launcher.png"
+    },
+    {
+        "merged": "C:\\Users\\yanjm\\Desktop\\AIDLDesktopTest\\app\\build\\intermediates\\res\\merged\\debug\\drawable-mdpi\\ic_launcher.png",
+        "source": "C:\\Users\\yanjm\\Desktop\\AIDLDesktopTest\\app\\src\\main\\res\\drawable-mdpi\\ic_launcher.png"
+    },
+    {
+        "merged": "C:\\Users\\yanjm\\Desktop\\AIDLDesktopTest\\AIDLDesktopTest\\app\\build\\intermediates\\res\\merged\\debug\\drawable-mdpi\\ic_launcher.png",
+        "source": "C:\\Users\\yanjm\\Desktop\\AIDLDesktopTest\\AIDLDesktopTest\\app\\src\\main\\res\\drawable-mdpi\\ic_launcher.png"
+    }
+]

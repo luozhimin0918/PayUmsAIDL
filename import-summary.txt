@@ -1,0 +1,867 @@
+ECLIPSE ANDROID PROJECT IMPORT SUMMARY
+======================================
+
+Ignored Files:
+--------------
+The following files were *not* copied into the new Gradle project; you
+should evaluate whether these are still needed in your project and if
+so manually move them:
+
+* .idea\
+* .idea\UMSAnyPaySdk.iml
+* .idea\compiler.xml
+* .idea\copyright\
+* .idea\copyright\profiles_settings.xml
+* .idea\misc.xml
+* .idea\modules.xml
+* .idea\workspace.xml
+* ant.properties
+* build.xml
+* cordova\
+* cordova\appinfo.jar
+* cordova\build.bat
+* cordova\clean.bat
+* cordova\cordova.bat
+* cordova\lib\
+* cordova\lib\cordova.js
+* cordova\lib\install-device.bat
+* cordova\lib\install-emulator.bat
+* cordova\lib\list-devices.bat
+* cordova\lib\list-emulator-images.bat
+* cordova\lib\list-started-emulators.bat
+* cordova\lib\start-emulator.bat
+* cordova\log.bat
+* cordova\run.bat
+* cordova\version.bat
+* doc\
+* doc\allclasses-frame.html
+* doc\allclasses-noframe.html
+* doc\com\
+* doc\com\ums\
+* doc\com\ums\upos\
+* doc\com\ums\upos\sdk\
+* doc\com\ums\upos\sdk\ListenerInterface.html
+* doc\com\ums\upos\sdk\SDKInterface.html
+* doc\com\ums\upos\sdk\SDKResult.html
+* doc\com\ums\upos\sdk\Version.html
+* doc\com\ums\upos\sdk\card\
+* doc\com\ums\upos\sdk\card\cpu\
+* doc\com\ums\upos\sdk\card\cpu\Apdu.html
+* doc\com\ums\upos\sdk\card\cpu\CpuCardManager.html
+* doc\com\ums\upos\sdk\card\cpu\class-use\
+* doc\com\ums\upos\sdk\card\cpu\class-use\Apdu.html
+* doc\com\ums\upos\sdk\card\cpu\class-use\CpuCardManager.html
+* doc\com\ums\upos\sdk\card\cpu\package-frame.html
+* doc\com\ums\upos\sdk\card\cpu\package-summary.html
+* doc\com\ums\upos\sdk\card\cpu\package-tree.html
+* doc\com\ums\upos\sdk\card\cpu\package-use.html
+* doc\com\ums\upos\sdk\card\industry\
+* doc\com\ums\upos\sdk\card\industry\IndustryCardApdu.html
+* doc\com\ums\upos\sdk\card\industry\IndustryCardManager.html
+* doc\com\ums\upos\sdk\card\industry\class-use\
+* doc\com\ums\upos\sdk\card\industry\class-use\IndustryCardApdu.html
+* doc\com\ums\upos\sdk\card\industry\class-use\IndustryCardManager.html
+* doc\com\ums\upos\sdk\card\industry\package-frame.html
+* doc\com\ums\upos\sdk\card\industry\package-summary.html
+* doc\com\ums\upos\sdk\card\industry\package-tree.html
+* doc\com\ums\upos\sdk\card\industry\package-use.html
+* doc\com\ums\upos\sdk\card\m1\
+* doc\com\ums\upos\sdk\card\m1\AuthEntity.html
+* doc\com\ums\upos\sdk\card\m1\BlockEntity.html
+* doc\com\ums\upos\sdk\card\m1\KeyTypeEnum.html
+* doc\com\ums\upos\sdk\card\m1\M1CardManager.html
+* doc\com\ums\upos\sdk\card\m1\OperateTypeEnum.html
+* doc\com\ums\upos\sdk\card\m1\class-use\
+* doc\com\ums\upos\sdk\card\m1\class-use\AuthEntity.html
+* doc\com\ums\upos\sdk\card\m1\class-use\BlockEntity.html
+* doc\com\ums\upos\sdk\card\m1\class-use\KeyTypeEnum.html
+* doc\com\ums\upos\sdk\card\m1\class-use\M1CardManager.html
+* doc\com\ums\upos\sdk\card\m1\class-use\OperateTypeEnum.html
+* doc\com\ums\upos\sdk\card\m1\package-frame.html
+* doc\com\ums\upos\sdk\card\m1\package-summary.html
+* doc\com\ums\upos\sdk\card\m1\package-tree.html
+* doc\com\ums\upos\sdk\card\m1\package-use.html
+* doc\com\ums\upos\sdk\card\psam\
+* doc\com\ums\upos\sdk\card\psam\PsamCardManager.html
+* doc\com\ums\upos\sdk\card\psam\PsamSlotNoEnum.html
+* doc\com\ums\upos\sdk\card\psam\class-use\
+* doc\com\ums\upos\sdk\card\psam\class-use\PsamCardManager.html
+* doc\com\ums\upos\sdk\card\psam\class-use\PsamSlotNoEnum.html
+* doc\com\ums\upos\sdk\card\psam\package-frame.html
+* doc\com\ums\upos\sdk\card\psam\package-summary.html
+* doc\com\ums\upos\sdk\card\psam\package-tree.html
+* doc\com\ums\upos\sdk\card\psam\package-use.html
+* doc\com\ums\upos\sdk\cardslot\
+* doc\com\ums\upos\sdk\cardslot\CardInfoEntity.html
+* doc\com\ums\upos\sdk\cardslot\CardSlotManager.html
+* doc\com\ums\upos\sdk\cardslot\CardSlotTypeEnum.html
+* doc\com\ums\upos\sdk\cardslot\CardTypeEnum.html
+* doc\com\ums\upos\sdk\cardslot\IcSlotOptions.html
+* doc\com\ums\upos\sdk\cardslot\LrcEnum.html
+* doc\com\ums\upos\sdk\cardslot\OnCardInfoListener.html
+* doc\com\ums\upos\sdk\cardslot\OnCardInfoListenerWrapper.html
+* doc\com\ums\upos\sdk\cardslot\SwipeSlotOptions.html
+* doc\com\ums\upos\sdk\cardslot\class-use\
+* doc\com\ums\upos\sdk\cardslot\class-use\CardInfoEntity.html
+* doc\com\ums\upos\sdk\cardslot\class-use\CardSlotManager.html
+* doc\com\ums\upos\sdk\cardslot\class-use\CardSlotTypeEnum.html
+* doc\com\ums\upos\sdk\cardslot\class-use\CardTypeEnum.html
+* doc\com\ums\upos\sdk\cardslot\class-use\IcSlotOptions.html
+* doc\com\ums\upos\sdk\cardslot\class-use\LrcEnum.html
+* doc\com\ums\upos\sdk\cardslot\class-use\OnCardInfoListener.html
+* doc\com\ums\upos\sdk\cardslot\class-use\OnCardInfoListenerWrapper.html
+* doc\com\ums\upos\sdk\cardslot\class-use\SwipeSlotOptions.html
+* doc\com\ums\upos\sdk\cardslot\package-frame.html
+* doc\com\ums\upos\sdk\cardslot\package-summary.html
+* doc\com\ums\upos\sdk\cardslot\package-tree.html
+* doc\com\ums\upos\sdk\cardslot\package-use.html
+* doc\com\ums\upos\sdk\cashbox\
+* doc\com\ums\upos\sdk\cashbox\CashBoxManange.html
+* doc\com\ums\upos\sdk\cashbox\class-use\
+* doc\com\ums\upos\sdk\cashbox\class-use\CashBoxManange.html
+* doc\com\ums\upos\sdk\cashbox\package-frame.html
+* doc\com\ums\upos\sdk\cashbox\package-summary.html
+* doc\com\ums\upos\sdk\cashbox\package-tree.html
+* doc\com\ums\upos\sdk\cashbox\package-use.html
+* doc\com\ums\upos\sdk\class-use\
+* doc\com\ums\upos\sdk\class-use\ListenerInterface.html
+* doc\com\ums\upos\sdk\class-use\SDKInterface.html
+* doc\com\ums\upos\sdk\class-use\SDKResult.html
+* doc\com\ums\upos\sdk\class-use\Version.html
+* doc\com\ums\upos\sdk\core\
+* doc\com\ums\upos\sdk\core\base\
+* doc\com\ums\upos\sdk\core\base\exception\
+* doc\com\ums\upos\sdk\core\base\exception\CoreException.html
+* doc\com\ums\upos\sdk\core\base\exception\class-use\
+* doc\com\ums\upos\sdk\core\base\exception\class-use\CoreException.html
+* doc\com\ums\upos\sdk\core\base\exception\package-frame.html
+* doc\com\ums\upos\sdk\core\base\exception\package-summary.html
+* doc\com\ums\upos\sdk\core\base\exception\package-tree.html
+* doc\com\ums\upos\sdk\core\base\exception\package-use.html
+* doc\com\ums\upos\sdk\emv\
+* doc\com\ums\upos\sdk\emv\BlackListEnum.html
+* doc\com\ums\upos\sdk\emv\EMVOnlineRequestEntity.html
+* doc\com\ums\upos\sdk\emv\EmvAidParaEntity.html
+* doc\com\ums\upos\sdk\emv\EmvAlgorithmTypeEnum.html
+* doc\com\ums\upos\sdk\emv\EmvCapkEntity.html
+* doc\com\ums\upos\sdk\emv\EmvCardLogEntity.html
+* doc\com\ums\upos\sdk\emv\EmvChannelTypeEnum.html
+* doc\com\ums\upos\sdk\emv\EmvDataSourceEnum.html
+* doc\com\ums\upos\sdk\emv\EmvManager.EmvStatus.html
+* doc\com\ums\upos\sdk\emv\EmvManager.html
+* doc\com\ums\upos\sdk\emv\EmvOnlineResultEntity.html
+* doc\com\ums\upos\sdk\emv\EmvProcessResultEntity.html
+* doc\com\ums\upos\sdk\emv\EmvTermCfgEntity.html
+* doc\com\ums\upos\sdk\emv\EmvTransDataEntity.html
+* doc\com\ums\upos\sdk\emv\EmvTransFlowEnum.html
+* doc\com\ums\upos\sdk\emv\OnEmvProcListener.html
+* doc\com\ums\upos\sdk\emv\OnEmvProcListenerWrapper.html
+* doc\com\ums\upos\sdk\emv\OnGetEcBalanceListener.html
+* doc\com\ums\upos\sdk\emv\OnGetEcBalanceListenerWrapper.html
+* doc\com\ums\upos\sdk\emv\OnGetEmvCardLogListener.html
+* doc\com\ums\upos\sdk\emv\OnGetEmvCardLogListenerWrapper.html
+* doc\com\ums\upos\sdk\emv\class-use\
+* doc\com\ums\upos\sdk\emv\class-use\BlackListEnum.html
+* doc\com\ums\upos\sdk\emv\class-use\EMVOnlineRequestEntity.html
+* doc\com\ums\upos\sdk\emv\class-use\EmvAidParaEntity.html
+* doc\com\ums\upos\sdk\emv\class-use\EmvAlgorithmTypeEnum.html
+* doc\com\ums\upos\sdk\emv\class-use\EmvCapkEntity.html
+* doc\com\ums\upos\sdk\emv\class-use\EmvCardLogEntity.html
+* doc\com\ums\upos\sdk\emv\class-use\EmvChannelTypeEnum.html
+* doc\com\ums\upos\sdk\emv\class-use\EmvDataSourceEnum.html
+* doc\com\ums\upos\sdk\emv\class-use\EmvManager.EmvStatus.html
+* doc\com\ums\upos\sdk\emv\class-use\EmvManager.html
+* doc\com\ums\upos\sdk\emv\class-use\EmvOnlineResultEntity.html
+* doc\com\ums\upos\sdk\emv\class-use\EmvProcessResultEntity.html
+* doc\com\ums\upos\sdk\emv\class-use\EmvTermCfgEntity.html
+* doc\com\ums\upos\sdk\emv\class-use\EmvTransDataEntity.html
+* doc\com\ums\upos\sdk\emv\class-use\EmvTransFlowEnum.html
+* doc\com\ums\upos\sdk\emv\class-use\OnEmvProcListener.html
+* doc\com\ums\upos\sdk\emv\class-use\OnEmvProcListenerWrapper.html
+* doc\com\ums\upos\sdk\emv\class-use\OnGetEcBalanceListener.html
+* doc\com\ums\upos\sdk\emv\class-use\OnGetEcBalanceListenerWrapper.html
+* doc\com\ums\upos\sdk\emv\class-use\OnGetEmvCardLogListener.html
+* doc\com\ums\upos\sdk\emv\class-use\OnGetEmvCardLogListenerWrapper.html
+* doc\com\ums\upos\sdk\emv\package-frame.html
+* doc\com\ums\upos\sdk\emv\package-summary.html
+* doc\com\ums\upos\sdk\emv\package-tree.html
+* doc\com\ums\upos\sdk\emv\package-use.html
+* doc\com\ums\upos\sdk\exception\
+* doc\com\ums\upos\sdk\exception\CallServiceException.html
+* doc\com\ums\upos\sdk\exception\SdkException.html
+* doc\com\ums\upos\sdk\exception\class-use\
+* doc\com\ums\upos\sdk\exception\class-use\CallServiceException.html
+* doc\com\ums\upos\sdk\exception\class-use\SdkException.html
+* doc\com\ums\upos\sdk\exception\package-frame.html
+* doc\com\ums\upos\sdk\exception\package-summary.html
+* doc\com\ums\upos\sdk\exception\package-tree.html
+* doc\com\ums\upos\sdk\exception\package-use.html
+* doc\com\ums\upos\sdk\hermes\
+* doc\com\ums\upos\sdk\hermes\ErrorCode.html
+* doc\com\ums\upos\sdk\hermes\ErrorMessage.html
+* doc\com\ums\upos\sdk\hermes\HermesPlugin.html
+* doc\com\ums\upos\sdk\hermes\HermesPluginBase.html
+* doc\com\ums\upos\sdk\hermes\HermesPluginEntry.html
+* doc\com\ums\upos\sdk\hermes\HermesPluginManager.html
+* doc\com\ums\upos\sdk\hermes\HermesPluginResult.html
+* doc\com\ums\upos\sdk\hermes\HermesToJs.html
+* doc\com\ums\upos\sdk\hermes\HermesToNative.html
+* doc\com\ums\upos\sdk\hermes\JsCallbackContext.html
+* doc\com\ums\upos\sdk\hermes\class-use\
+* doc\com\ums\upos\sdk\hermes\class-use\ErrorCode.html
+* doc\com\ums\upos\sdk\hermes\class-use\ErrorMessage.html
+* doc\com\ums\upos\sdk\hermes\class-use\HermesPlugin.html
+* doc\com\ums\upos\sdk\hermes\class-use\HermesPluginBase.html
+* doc\com\ums\upos\sdk\hermes\class-use\HermesPluginEntry.html
+* doc\com\ums\upos\sdk\hermes\class-use\HermesPluginManager.html
+* doc\com\ums\upos\sdk\hermes\class-use\HermesPluginResult.html
+* doc\com\ums\upos\sdk\hermes\class-use\HermesToJs.html
+* doc\com\ums\upos\sdk\hermes\class-use\HermesToNative.html
+* doc\com\ums\upos\sdk\hermes\class-use\JsCallbackContext.html
+* doc\com\ums\upos\sdk\hermes\package-frame.html
+* doc\com\ums\upos\sdk\hermes\package-summary.html
+* doc\com\ums\upos\sdk\hermes\package-tree.html
+* doc\com\ums\upos\sdk\hermes\package-use.html
+* doc\com\ums\upos\sdk\modem\
+* doc\com\ums\upos\sdk\modem\ConfigEntity.html
+* doc\com\ums\upos\sdk\modem\DialParamEntity.html
+* doc\com\ums\upos\sdk\modem\ModemManager.html
+* doc\com\ums\upos\sdk\modem\OnModemDialListener.html
+* doc\com\ums\upos\sdk\modem\OnModemDialListenerWrapper.html
+* doc\com\ums\upos\sdk\modem\class-use\
+* doc\com\ums\upos\sdk\modem\class-use\ConfigEntity.html
+* doc\com\ums\upos\sdk\modem\class-use\DialParamEntity.html
+* doc\com\ums\upos\sdk\modem\class-use\ModemManager.html
+* doc\com\ums\upos\sdk\modem\class-use\OnModemDialListener.html
+* doc\com\ums\upos\sdk\modem\class-use\OnModemDialListenerWrapper.html
+* doc\com\ums\upos\sdk\modem\package-frame.html
+* doc\com\ums\upos\sdk\modem\package-summary.html
+* doc\com\ums\upos\sdk\modem\package-tree.html
+* doc\com\ums\upos\sdk\modem\package-use.html
+* doc\com\ums\upos\sdk\network\
+* doc\com\ums\upos\sdk\network\ConnectityStateEnum.html
+* doc\com\ums\upos\sdk\network\GprsParamsEntity.html
+* doc\com\ums\upos\sdk\network\GprsStateEntity.html
+* doc\com\ums\upos\sdk\network\LanParamsEntity.html
+* doc\com\ums\upos\sdk\network\NetworkManager.html
+* doc\com\ums\upos\sdk\network\NetworkTypeEnum.html
+* doc\com\ums\upos\sdk\network\OnCloseNetworkListener.html
+* doc\com\ums\upos\sdk\network\OnCloseNetworkListenerWrapper.html
+* doc\com\ums\upos\sdk\network\OnOpenNetworkListener.html
+* doc\com\ums\upos\sdk\network\OnOpenNetworkListenerWrapper.html
+* doc\com\ums\upos\sdk\network\OnPingListener.html
+* doc\com\ums\upos\sdk\network\OnPingListenerWrapper.html
+* doc\com\ums\upos\sdk\network\ScanListener.html
+* doc\com\ums\upos\sdk\network\ScanListenerWrapper.html
+* doc\com\ums\upos\sdk\network\StateEntity.html
+* doc\com\ums\upos\sdk\network\StateEnum.html
+* doc\com\ums\upos\sdk\network\WifiAuthTypeEnum.html
+* doc\com\ums\upos\sdk\network\WifiParamsEntity.html
+* doc\com\ums\upos\sdk\network\WifiSpotEntity.html
+* doc\com\ums\upos\sdk\network\WifiStateEntity.html
+* doc\com\ums\upos\sdk\network\class-use\
+* doc\com\ums\upos\sdk\network\class-use\ConnectityStateEnum.html
+* doc\com\ums\upos\sdk\network\class-use\GprsParamsEntity.html
+* doc\com\ums\upos\sdk\network\class-use\GprsStateEntity.html
+* doc\com\ums\upos\sdk\network\class-use\LanParamsEntity.html
+* doc\com\ums\upos\sdk\network\class-use\NetworkManager.html
+* doc\com\ums\upos\sdk\network\class-use\NetworkTypeEnum.html
+* doc\com\ums\upos\sdk\network\class-use\OnCloseNetworkListener.html
+* doc\com\ums\upos\sdk\network\class-use\OnCloseNetworkListenerWrapper.html
+* doc\com\ums\upos\sdk\network\class-use\OnOpenNetworkListener.html
+* doc\com\ums\upos\sdk\network\class-use\OnOpenNetworkListenerWrapper.html
+* doc\com\ums\upos\sdk\network\class-use\OnPingListener.html
+* doc\com\ums\upos\sdk\network\class-use\OnPingListenerWrapper.html
+* doc\com\ums\upos\sdk\network\class-use\ScanListener.html
+* doc\com\ums\upos\sdk\network\class-use\ScanListenerWrapper.html
+* doc\com\ums\upos\sdk\network\class-use\StateEntity.html
+* doc\com\ums\upos\sdk\network\class-use\StateEnum.html
+* doc\com\ums\upos\sdk\network\class-use\WifiAuthTypeEnum.html
+* doc\com\ums\upos\sdk\network\class-use\WifiParamsEntity.html
+* doc\com\ums\upos\sdk\network\class-use\WifiSpotEntity.html
+* doc\com\ums\upos\sdk\network\class-use\WifiStateEntity.html
+* doc\com\ums\upos\sdk\network\package-frame.html
+* doc\com\ums\upos\sdk\network\package-summary.html
+* doc\com\ums\upos\sdk\network\package-tree.html
+* doc\com\ums\upos\sdk\network\package-use.html
+* doc\com\ums\upos\sdk\package-frame.html
+* doc\com\ums\upos\sdk\package-summary.html
+* doc\com\ums\upos\sdk\package-tree.html
+* doc\com\ums\upos\sdk\package-use.html
+* doc\com\ums\upos\sdk\packet\
+* doc\com\ums\upos\sdk\packet\BasePackerInterface.html
+* doc\com\ums\upos\sdk\packet\class-use\
+* doc\com\ums\upos\sdk\packet\class-use\BasePackerInterface.html
+* doc\com\ums\upos\sdk\packet\iso8583\
+* doc\com\ums\upos\sdk\packet\iso8583\Iso8583Packer.html
+* doc\com\ums\upos\sdk\packet\iso8583\class-use\
+* doc\com\ums\upos\sdk\packet\iso8583\class-use\Iso8583Packer.html
+* doc\com\ums\upos\sdk\packet\iso8583\constrants\
+* doc\com\ums\upos\sdk\packet\iso8583\constrants\Iso8583FieldConstrants.html
+* doc\com\ums\upos\sdk\packet\iso8583\constrants\class-use\
+* doc\com\ums\upos\sdk\packet\iso8583\constrants\class-use\Iso8583FieldConstrants.html
+* doc\com\ums\upos\sdk\packet\iso8583\constrants\package-frame.html
+* doc\com\ums\upos\sdk\packet\iso8583\constrants\package-summary.html
+* doc\com\ums\upos\sdk\packet\iso8583\constrants\package-tree.html
+* doc\com\ums\upos\sdk\packet\iso8583\constrants\package-use.html
+* doc\com\ums\upos\sdk\packet\iso8583\enumerate\
+* doc\com\ums\upos\sdk\packet\iso8583\enumerate\EnumIsoFieldAction.html
+* doc\com\ums\upos\sdk\packet\iso8583\enumerate\IsoBaseCfgEnum.html
+* doc\com\ums\upos\sdk\packet\iso8583\enumerate\IsoFormat.html
+* doc\com\ums\upos\sdk\packet\iso8583\enumerate\IsoType.html
+* doc\com\ums\upos\sdk\packet\iso8583\enumerate\PaddingDirect.html
+* doc\com\ums\upos\sdk\packet\iso8583\enumerate\class-use\
+* doc\com\ums\upos\sdk\packet\iso8583\enumerate\class-use\EnumIsoFieldAction.html
+* doc\com\ums\upos\sdk\packet\iso8583\enumerate\class-use\IsoBaseCfgEnum.html
+* doc\com\ums\upos\sdk\packet\iso8583\enumerate\class-use\IsoFormat.html
+* doc\com\ums\upos\sdk\packet\iso8583\enumerate\class-use\IsoType.html
+* doc\com\ums\upos\sdk\packet\iso8583\enumerate\class-use\PaddingDirect.html
+* doc\com\ums\upos\sdk\packet\iso8583\enumerate\package-frame.html
+* doc\com\ums\upos\sdk\packet\iso8583\enumerate\package-summary.html
+* doc\com\ums\upos\sdk\packet\iso8583\enumerate\package-tree.html
+* doc\com\ums\upos\sdk\packet\iso8583\enumerate\package-use.html
+* doc\com\ums\upos\sdk\packet\iso8583\exception\
+* doc\com\ums\upos\sdk\packet\iso8583\exception\Iso8583Exception.html
+* doc\com\ums\upos\sdk\packet\iso8583\exception\class-use\
+* doc\com\ums\upos\sdk\packet\iso8583\exception\class-use\Iso8583Exception.html
+* doc\com\ums\upos\sdk\packet\iso8583\exception\package-frame.html
+* doc\com\ums\upos\sdk\packet\iso8583\exception\package-summary.html
+* doc\com\ums\upos\sdk\packet\iso8583\exception\package-tree.html
+* doc\com\ums\upos\sdk\packet\iso8583\exception\package-use.html
+* doc\com\ums\upos\sdk\packet\iso8583\model\
+* doc\com\ums\upos\sdk\packet\iso8583\model\Iso8583BaseCfg.html
+* doc\com\ums\upos\sdk\packet\iso8583\model\Iso8583Field.html
+* doc\com\ums\upos\sdk\packet\iso8583\model\Iso8583FieldAttr.html
+* doc\com\ums\upos\sdk\packet\iso8583\model\Iso8583Message.html
+* doc\com\ums\upos\sdk\packet\iso8583\model\Iso8583MessageAttr.html
+* doc\com\ums\upos\sdk\packet\iso8583\model\class-use\
+* doc\com\ums\upos\sdk\packet\iso8583\model\class-use\Iso8583BaseCfg.html
+* doc\com\ums\upos\sdk\packet\iso8583\model\class-use\Iso8583Field.html
+* doc\com\ums\upos\sdk\packet\iso8583\model\class-use\Iso8583FieldAttr.html
+* doc\com\ums\upos\sdk\packet\iso8583\model\class-use\Iso8583Message.html
+* doc\com\ums\upos\sdk\packet\iso8583\model\class-use\Iso8583MessageAttr.html
+* doc\com\ums\upos\sdk\packet\iso8583\model\package-frame.html
+* doc\com\ums\upos\sdk\packet\iso8583\model\package-summary.html
+* doc\com\ums\upos\sdk\packet\iso8583\model\package-tree.html
+* doc\com\ums\upos\sdk\packet\iso8583\model\package-use.html
+* doc\com\ums\upos\sdk\packet\iso8583\package-frame.html
+* doc\com\ums\upos\sdk\packet\iso8583\package-summary.html
+* doc\com\ums\upos\sdk\packet\iso8583\package-tree.html
+* doc\com\ums\upos\sdk\packet\iso8583\package-use.html
+* doc\com\ums\upos\sdk\packet\iso8583\utils\
+* doc\com\ums\upos\sdk\packet\iso8583\utils\IsoUtil.html
+* doc\com\ums\upos\sdk\packet\iso8583\utils\class-use\
+* doc\com\ums\upos\sdk\packet\iso8583\utils\class-use\IsoUtil.html
+* doc\com\ums\upos\sdk\packet\iso8583\utils\package-frame.html
+* doc\com\ums\upos\sdk\packet\iso8583\utils\package-summary.html
+* doc\com\ums\upos\sdk\packet\iso8583\utils\package-tree.html
+* doc\com\ums\upos\sdk\packet\iso8583\utils\package-use.html
+* doc\com\ums\upos\sdk\packet\package-frame.html
+* doc\com\ums\upos\sdk\packet\package-summary.html
+* doc\com\ums\upos\sdk\packet\package-tree.html
+* doc\com\ums\upos\sdk\packet\package-use.html
+* doc\com\ums\upos\sdk\pinpad\
+* doc\com\ums\upos\sdk\pinpad\DesEntity.html
+* doc\com\ums\upos\sdk\pinpad\DesKeyEntity.html
+* doc\com\ums\upos\sdk\pinpad\EncryptTypeEnum.html
+* doc\com\ums\upos\sdk\pinpad\InputModeEnum.html
+* doc\com\ums\upos\sdk\pinpad\MacAlgModeEnum.html
+* doc\com\ums\upos\sdk\pinpad\MacEntity.html
+* doc\com\ums\upos\sdk\pinpad\MainKeyEntity.html
+* doc\com\ums\upos\sdk\pinpad\MainKeyTypeEnum.html
+* doc\com\ums\upos\sdk\pinpad\OnInputPinListener.html
+* doc\com\ums\upos\sdk\pinpad\OnInputPinListenerWrapper.html
+* doc\com\ums\upos\sdk\pinpad\PinAlgorithmModeEnum.html
+* doc\com\ums\upos\sdk\pinpad\PinEntity.html
+* doc\com\ums\upos\sdk\pinpad\PinPadKeyCode.html
+* doc\com\ums\upos\sdk\pinpad\PinPadManager.html
+* doc\com\ums\upos\sdk\pinpad\PinPadTypeEnum.html
+* doc\com\ums\upos\sdk\pinpad\WorkKeyEntity.html
+* doc\com\ums\upos\sdk\pinpad\WorkKeyTypeEnum.html
+* doc\com\ums\upos\sdk\pinpad\class-use\
+* doc\com\ums\upos\sdk\pinpad\class-use\DesEntity.html
+* doc\com\ums\upos\sdk\pinpad\class-use\DesKeyEntity.html
+* doc\com\ums\upos\sdk\pinpad\class-use\EncryptTypeEnum.html
+* doc\com\ums\upos\sdk\pinpad\class-use\InputModeEnum.html
+* doc\com\ums\upos\sdk\pinpad\class-use\MacAlgModeEnum.html
+* doc\com\ums\upos\sdk\pinpad\class-use\MacEntity.html
+* doc\com\ums\upos\sdk\pinpad\class-use\MainKeyEntity.html
+* doc\com\ums\upos\sdk\pinpad\class-use\MainKeyTypeEnum.html
+* doc\com\ums\upos\sdk\pinpad\class-use\OnInputPinListener.html
+* doc\com\ums\upos\sdk\pinpad\class-use\OnInputPinListenerWrapper.html
+* doc\com\ums\upos\sdk\pinpad\class-use\PinAlgorithmModeEnum.html
+* doc\com\ums\upos\sdk\pinpad\class-use\PinEntity.html
+* doc\com\ums\upos\sdk\pinpad\class-use\PinPadKeyCode.html
+* doc\com\ums\upos\sdk\pinpad\class-use\PinPadManager.html
+* doc\com\ums\upos\sdk\pinpad\class-use\PinPadTypeEnum.html
+* doc\com\ums\upos\sdk\pinpad\class-use\WorkKeyEntity.html
+* doc\com\ums\upos\sdk\pinpad\class-use\WorkKeyTypeEnum.html
+* doc\com\ums\upos\sdk\pinpad\package-frame.html
+* doc\com\ums\upos\sdk\pinpad\package-summary.html
+* doc\com\ums\upos\sdk\pinpad\package-tree.html
+* doc\com\ums\upos\sdk\pinpad\package-use.html
+* doc\com\ums\upos\sdk\printer\
+* doc\com\ums\upos\sdk\printer\BoldEnum.html
+* doc\com\ums\upos\sdk\printer\FeedCount.html
+* doc\com\ums\upos\sdk\printer\FeedUnitEnum.html
+* doc\com\ums\upos\sdk\printer\FontConfig.html
+* doc\com\ums\upos\sdk\printer\FontSizeEnum.html
+* doc\com\ums\upos\sdk\printer\GrayLevelEnum.html
+* doc\com\ums\upos\sdk\printer\OnPrintResultListener.html
+* doc\com\ums\upos\sdk\printer\OnPrintResultListenerWrapper.html
+* doc\com\ums\upos\sdk\printer\PrinterManager.html
+* doc\com\ums\upos\sdk\printer\class-use\
+* doc\com\ums\upos\sdk\printer\class-use\BoldEnum.html
+* doc\com\ums\upos\sdk\printer\class-use\FeedCount.html
+* doc\com\ums\upos\sdk\printer\class-use\FeedUnitEnum.html
+* doc\com\ums\upos\sdk\printer\class-use\FontConfig.html
+* doc\com\ums\upos\sdk\printer\class-use\FontSizeEnum.html
+* doc\com\ums\upos\sdk\printer\class-use\GrayLevelEnum.html
+* doc\com\ums\upos\sdk\printer\class-use\OnPrintResultListener.html
+* doc\com\ums\upos\sdk\printer\class-use\OnPrintResultListenerWrapper.html
+* doc\com\ums\upos\sdk\printer\class-use\PrinterManager.html
+* doc\com\ums\upos\sdk\printer\package-frame.html
+* doc\com\ums\upos\sdk\printer\package-summary.html
+* doc\com\ums\upos\sdk\printer\package-tree.html
+* doc\com\ums\upos\sdk\printer\package-use.html
+* doc\com\ums\upos\sdk\printer\template\
+* doc\com\ums\upos\sdk\printer\template\AbsPrinterTemplate.html
+* doc\com\ums\upos\sdk\printer\template\BMPFile.html
+* doc\com\ums\upos\sdk\printer\template\JsPrinterTemplate.html
+* doc\com\ums\upos\sdk\printer\template\NativePrinterTemplate.html
+* doc\com\ums\upos\sdk\printer\template\OnBitmapListener.html
+* doc\com\ums\upos\sdk\printer\template\PrinterSample.html
+* doc\com\ums\upos\sdk\printer\template\PrinterTemplate.html
+* doc\com\ums\upos\sdk\printer\template\TemplateFactory.TemplateClass.html
+* doc\com\ums\upos\sdk\printer\template\TemplateFactory.html
+* doc\com\ums\upos\sdk\printer\template\class-use\
+* doc\com\ums\upos\sdk\printer\template\class-use\AbsPrinterTemplate.html
+* doc\com\ums\upos\sdk\printer\template\class-use\BMPFile.html
+* doc\com\ums\upos\sdk\printer\template\class-use\JsPrinterTemplate.html
+* doc\com\ums\upos\sdk\printer\template\class-use\NativePrinterTemplate.html
+* doc\com\ums\upos\sdk\printer\template\class-use\OnBitmapListener.html
+* doc\com\ums\upos\sdk\printer\template\class-use\PrinterSample.html
+* doc\com\ums\upos\sdk\printer\template\class-use\PrinterTemplate.html
+* doc\com\ums\upos\sdk\printer\template\class-use\TemplateFactory.TemplateClass.html
+* doc\com\ums\upos\sdk\printer\template\class-use\TemplateFactory.html
+* doc\com\ums\upos\sdk\printer\template\package-frame.html
+* doc\com\ums\upos\sdk\printer\template\package-summary.html
+* doc\com\ums\upos\sdk\printer\template\package-tree.html
+* doc\com\ums\upos\sdk\printer\template\package-use.html
+* doc\com\ums\upos\sdk\scanner\
+* doc\com\ums\upos\sdk\scanner\OnScanListener.html
+* doc\com\ums\upos\sdk\scanner\OnScanListenerWrapper.html
+* doc\com\ums\upos\sdk\scanner\ScannerConfig.html
+* doc\com\ums\upos\sdk\scanner\ScannerManager.html
+* doc\com\ums\upos\sdk\scanner\class-use\
+* doc\com\ums\upos\sdk\scanner\class-use\OnScanListener.html
+* doc\com\ums\upos\sdk\scanner\class-use\OnScanListenerWrapper.html
+* doc\com\ums\upos\sdk\scanner\class-use\ScannerConfig.html
+* doc\com\ums\upos\sdk\scanner\class-use\ScannerManager.html
+* doc\com\ums\upos\sdk\scanner\package-frame.html
+* doc\com\ums\upos\sdk\scanner\package-summary.html
+* doc\com\ums\upos\sdk\scanner\package-tree.html
+* doc\com\ums\upos\sdk\scanner\package-use.html
+* doc\com\ums\upos\sdk\serialport\
+* doc\com\ums\upos\sdk\serialport\SerialPortEnum.html
+* doc\com\ums\upos\sdk\serialport\SerialPortManager.html
+* doc\com\ums\upos\sdk\serialport\class-use\
+* doc\com\ums\upos\sdk\serialport\class-use\SerialPortEnum.html
+* doc\com\ums\upos\sdk\serialport\class-use\SerialPortManager.html
+* doc\com\ums\upos\sdk\serialport\package-frame.html
+* doc\com\ums\upos\sdk\serialport\package-summary.html
+* doc\com\ums\upos\sdk\serialport\package-tree.html
+* doc\com\ums\upos\sdk\serialport\package-use.html
+* doc\com\ums\upos\sdk\system\
+* doc\com\ums\upos\sdk\system\BaseSystemManager.html
+* doc\com\ums\upos\sdk\system\BeeperModeEnum.html
+* doc\com\ums\upos\sdk\system\IMEStatus.html
+* doc\com\ums\upos\sdk\system\LightModeEnum.html
+* doc\com\ums\upos\sdk\system\ModuleEnum.html
+* doc\com\ums\upos\sdk\system\OnServiceStatusListener.html
+* doc\com\ums\upos\sdk\system\OnServiceStatusListenerWrapper.html
+* doc\com\ums\upos\sdk\system\class-use\
+* doc\com\ums\upos\sdk\system\class-use\BaseSystemManager.html
+* doc\com\ums\upos\sdk\system\class-use\BeeperModeEnum.html
+* doc\com\ums\upos\sdk\system\class-use\IMEStatus.html
+* doc\com\ums\upos\sdk\system\class-use\LightModeEnum.html
+* doc\com\ums\upos\sdk\system\class-use\ModuleEnum.html
+* doc\com\ums\upos\sdk\system\class-use\OnServiceStatusListener.html
+* doc\com\ums\upos\sdk\system\class-use\OnServiceStatusListenerWrapper.html
+* doc\com\ums\upos\sdk\system\package-frame.html
+* doc\com\ums\upos\sdk\system\package-summary.html
+* doc\com\ums\upos\sdk\system\package-tree.html
+* doc\com\ums\upos\sdk\system\package-use.html
+* doc\com\ums\upos\sdk\utils\
+* doc\com\ums\upos\sdk\utils\common\
+* doc\com\ums\upos\sdk\utils\common\ByteUtils.html
+* doc\com\ums\upos\sdk\utils\common\DESUtils.html
+* doc\com\ums\upos\sdk\utils\common\FileUtils.html
+* doc\com\ums\upos\sdk\utils\common\IoUtils.html
+* doc\com\ums\upos\sdk\utils\common\StringUtils.html
+* doc\com\ums\upos\sdk\utils\common\class-use\
+* doc\com\ums\upos\sdk\utils\common\class-use\ByteUtils.html
+* doc\com\ums\upos\sdk\utils\common\class-use\DESUtils.html
+* doc\com\ums\upos\sdk\utils\common\class-use\FileUtils.html
+* doc\com\ums\upos\sdk\utils\common\class-use\IoUtils.html
+* doc\com\ums\upos\sdk\utils\common\class-use\StringUtils.html
+* doc\com\ums\upos\sdk\utils\common\package-frame.html
+* doc\com\ums\upos\sdk\utils\common\package-summary.html
+* doc\com\ums\upos\sdk\utils\common\package-tree.html
+* doc\com\ums\upos\sdk\utils\common\package-use.html
+* doc\com\ums\upos\sdk\utils\json\
+* doc\com\ums\upos\sdk\utils\json\JSONUtils.html
+* doc\com\ums\upos\sdk\utils\json\class-use\
+* doc\com\ums\upos\sdk\utils\json\class-use\JSONUtils.html
+* doc\com\ums\upos\sdk\utils\json\package-frame.html
+* doc\com\ums\upos\sdk\utils\json\package-summary.html
+* doc\com\ums\upos\sdk\utils\json\package-tree.html
+* doc\com\ums\upos\sdk\utils\json\package-use.html
+* doc\com\ums\upos\sdk\utils\printer\
+* doc\com\ums\upos\sdk\utils\printer\OnPrintTemplateListener.html
+* doc\com\ums\upos\sdk\utils\printer\OnPrintTemplateListenerWrapper.html
+* doc\com\ums\upos\sdk\utils\printer\PrinterUtils.html
+* doc\com\ums\upos\sdk\utils\printer\class-use\
+* doc\com\ums\upos\sdk\utils\printer\class-use\OnPrintTemplateListener.html
+* doc\com\ums\upos\sdk\utils\printer\class-use\OnPrintTemplateListenerWrapper.html
+* doc\com\ums\upos\sdk\utils\printer\class-use\PrinterUtils.html
+* doc\com\ums\upos\sdk\utils\printer\package-frame.html
+* doc\com\ums\upos\sdk\utils\printer\package-summary.html
+* doc\com\ums\upos\sdk\utils\printer\package-tree.html
+* doc\com\ums\upos\sdk\utils\printer\package-use.html
+* doc\com\ums\upos\uapi\
+* doc\com\ums\upos\uapi\ServiceResult.html
+* doc\com\ums\upos\uapi\card\
+* doc\com\ums\upos\uapi\card\cpu\
+* doc\com\ums\upos\uapi\card\cpu\APDUCmd.html
+* doc\com\ums\upos\uapi\card\cpu\class-use\
+* doc\com\ums\upos\uapi\card\cpu\class-use\APDUCmd.html
+* doc\com\ums\upos\uapi\card\cpu\package-frame.html
+* doc\com\ums\upos\uapi\card\cpu\package-summary.html
+* doc\com\ums\upos\uapi\card\cpu\package-tree.html
+* doc\com\ums\upos\uapi\card\cpu\package-use.html
+* doc\com\ums\upos\uapi\card\industry\
+* doc\com\ums\upos\uapi\card\industry\IndustryCardCmd.html
+* doc\com\ums\upos\uapi\card\industry\class-use\
+* doc\com\ums\upos\uapi\card\industry\class-use\IndustryCardCmd.html
+* doc\com\ums\upos\uapi\card\industry\package-frame.html
+* doc\com\ums\upos\uapi\card\industry\package-summary.html
+* doc\com\ums\upos\uapi\card\industry\package-tree.html
+* doc\com\ums\upos\uapi\card\industry\package-use.html
+* doc\com\ums\upos\uapi\card\mifare\
+* doc\com\ums\upos\uapi\card\mifare\M1CardOperType.html
+* doc\com\ums\upos\uapi\card\mifare\M1KeyTypeConstrants.html
+* doc\com\ums\upos\uapi\card\mifare\class-use\
+* doc\com\ums\upos\uapi\card\mifare\class-use\M1CardOperType.html
+* doc\com\ums\upos\uapi\card\mifare\class-use\M1KeyTypeConstrants.html
+* doc\com\ums\upos\uapi\card\mifare\package-frame.html
+* doc\com\ums\upos\uapi\card\mifare\package-summary.html
+* doc\com\ums\upos\uapi\card\mifare\package-tree.html
+* doc\com\ums\upos\uapi\card\mifare\package-use.html
+* doc\com\ums\upos\uapi\class-use\
+* doc\com\ums\upos\uapi\class-use\ServiceResult.html
+* doc\com\ums\upos\uapi\device\
+* doc\com\ums\upos\uapi\device\beeper\
+* doc\com\ums\upos\uapi\device\beeper\BeepModeConstrants.html
+* doc\com\ums\upos\uapi\device\beeper\class-use\
+* doc\com\ums\upos\uapi\device\beeper\class-use\BeepModeConstrants.html
+* doc\com\ums\upos\uapi\device\beeper\package-frame.html
+* doc\com\ums\upos\uapi\device\beeper\package-summary.html
+* doc\com\ums\upos\uapi\device\beeper\package-tree.html
+* doc\com\ums\upos\uapi\device\beeper\package-use.html
+* doc\com\ums\upos\uapi\device\led\
+* doc\com\ums\upos\uapi\device\led\LEDLightConstrants.html
+* doc\com\ums\upos\uapi\device\led\class-use\
+* doc\com\ums\upos\uapi\device\led\class-use\LEDLightConstrants.html
+* doc\com\ums\upos\uapi\device\led\package-frame.html
+* doc\com\ums\upos\uapi\device\led\package-summary.html
+* doc\com\ums\upos\uapi\device\led\package-tree.html
+* doc\com\ums\upos\uapi\device\led\package-use.html
+* doc\com\ums\upos\uapi\device\modem\
+* doc\com\ums\upos\uapi\device\modem\DialParam.html
+* doc\com\ums\upos\uapi\device\modem\ModemConfig.html
+* doc\com\ums\upos\uapi\device\modem\class-use\
+* doc\com\ums\upos\uapi\device\modem\class-use\DialParam.html
+* doc\com\ums\upos\uapi\device\modem\class-use\ModemConfig.html
+* doc\com\ums\upos\uapi\device\modem\package-frame.html
+* doc\com\ums\upos\uapi\device\modem\package-summary.html
+* doc\com\ums\upos\uapi\device\modem\package-tree.html
+* doc\com\ums\upos\uapi\device\modem\package-use.html
+* doc\com\ums\upos\uapi\device\pinpad\
+* doc\com\ums\upos\uapi\device\pinpad\DesAlgorithmType.html
+* doc\com\ums\upos\uapi\device\pinpad\DesMode.html
+* doc\com\ums\upos\uapi\device\pinpad\DispTextMode.html
+* doc\com\ums\upos\uapi\device\pinpad\DiversifyKeyType.html
+* doc\com\ums\upos\uapi\device\pinpad\KSNConstrants.html
+* doc\com\ums\upos\uapi\device\pinpad\KsnType.html
+* doc\com\ums\upos\uapi\device\pinpad\MacAlgorithmType.html
+* doc\com\ums\upos\uapi\device\pinpad\MainKeyType.html
+* doc\com\ums\upos\uapi\device\pinpad\PinAlgorithmMode.html
+* doc\com\ums\upos\uapi\device\pinpad\PinPadKeyCode.html
+* doc\com\ums\upos\uapi\device\pinpad\PinPadType.html
+* doc\com\ums\upos\uapi\device\pinpad\WorkKeyType.html
+* doc\com\ums\upos\uapi\device\pinpad\class-use\
+* doc\com\ums\upos\uapi\device\pinpad\class-use\DesAlgorithmType.html
+* doc\com\ums\upos\uapi\device\pinpad\class-use\DesMode.html
+* doc\com\ums\upos\uapi\device\pinpad\class-use\DispTextMode.html
+* doc\com\ums\upos\uapi\device\pinpad\class-use\DiversifyKeyType.html
+* doc\com\ums\upos\uapi\device\pinpad\class-use\KSNConstrants.html
+* doc\com\ums\upos\uapi\device\pinpad\class-use\KsnType.html
+* doc\com\ums\upos\uapi\device\pinpad\class-use\MacAlgorithmType.html
+* doc\com\ums\upos\uapi\device\pinpad\class-use\MainKeyType.html
+* doc\com\ums\upos\uapi\device\pinpad\class-use\PinAlgorithmMode.html
+* doc\com\ums\upos\uapi\device\pinpad\class-use\PinPadKeyCode.html
+* doc\com\ums\upos\uapi\device\pinpad\class-use\PinPadType.html
+* doc\com\ums\upos\uapi\device\pinpad\class-use\WorkKeyType.html
+* doc\com\ums\upos\uapi\device\pinpad\package-frame.html
+* doc\com\ums\upos\uapi\device\pinpad\package-summary.html
+* doc\com\ums\upos\uapi\device\pinpad\package-tree.html
+* doc\com\ums\upos\uapi\device\pinpad\package-use.html
+* doc\com\ums\upos\uapi\device\printer\
+* doc\com\ums\upos\uapi\device\printer\FeedUnit.html
+* doc\com\ums\upos\uapi\device\printer\FontFamily.html
+* doc\com\ums\upos\uapi\device\printer\PrinterConfig.html
+* doc\com\ums\upos\uapi\device\printer\class-use\
+* doc\com\ums\upos\uapi\device\printer\class-use\FeedUnit.html
+* doc\com\ums\upos\uapi\device\printer\class-use\FontFamily.html
+* doc\com\ums\upos\uapi\device\printer\class-use\PrinterConfig.html
+* doc\com\ums\upos\uapi\device\printer\package-frame.html
+* doc\com\ums\upos\uapi\device\printer\package-summary.html
+* doc\com\ums\upos\uapi\device\printer\package-tree.html
+* doc\com\ums\upos\uapi\device\printer\package-use.html
+* doc\com\ums\upos\uapi\device\reader\
+* doc\com\ums\upos\uapi\device\reader\icc\
+* doc\com\ums\upos\uapi\device\reader\icc\ICCSearchResult.html
+* doc\com\ums\upos\uapi\device\reader\icc\IccCardType.html
+* doc\com\ums\upos\uapi\device\reader\icc\IccReaderSlot.html
+* doc\com\ums\upos\uapi\device\reader\icc\ReaderConfig.html
+* doc\com\ums\upos\uapi\device\reader\icc\class-use\
+* doc\com\ums\upos\uapi\device\reader\icc\class-use\ICCSearchResult.html
+* doc\com\ums\upos\uapi\device\reader\icc\class-use\IccCardType.html
+* doc\com\ums\upos\uapi\device\reader\icc\class-use\IccReaderSlot.html
+* doc\com\ums\upos\uapi\device\reader\icc\class-use\ReaderConfig.html
+* doc\com\ums\upos\uapi\device\reader\icc\package-frame.html
+* doc\com\ums\upos\uapi\device\reader\icc\package-summary.html
+* doc\com\ums\upos\uapi\device\reader\icc\package-tree.html
+* doc\com\ums\upos\uapi\device\reader\icc\package-use.html
+* doc\com\ums\upos\uapi\device\reader\mag\
+* doc\com\ums\upos\uapi\device\reader\mag\CardEncryConstrants.html
+* doc\com\ums\upos\uapi\device\reader\mag\MagCardInfoEntity.html
+* doc\com\ums\upos\uapi\device\reader\mag\class-use\
+* doc\com\ums\upos\uapi\device\reader\mag\class-use\CardEncryConstrants.html
+* doc\com\ums\upos\uapi\device\reader\mag\class-use\MagCardInfoEntity.html
+* doc\com\ums\upos\uapi\device\reader\mag\package-frame.html
+* doc\com\ums\upos\uapi\device\reader\mag\package-summary.html
+* doc\com\ums\upos\uapi\device\reader\mag\package-tree.html
+* doc\com\ums\upos\uapi\device\reader\mag\package-use.html
+* doc\com\ums\upos\uapi\device\scanner\
+* doc\com\ums\upos\uapi\device\scanner\ScannerConfig.html
+* doc\com\ums\upos\uapi\device\scanner\class-use\
+* doc\com\ums\upos\uapi\device\scanner\class-use\ScannerConfig.html
+* doc\com\ums\upos\uapi\device\scanner\package-frame.html
+* doc\com\ums\upos\uapi\device\scanner\package-summary.html
+* doc\com\ums\upos\uapi\device\scanner\package-tree.html
+* doc\com\ums\upos\uapi\device\scanner\package-use.html
+* doc\com\ums\upos\uapi\device\serialport\
+* doc\com\ums\upos\uapi\device\serialport\SerialPort.html
+* doc\com\ums\upos\uapi\device\serialport\class-use\
+* doc\com\ums\upos\uapi\device\serialport\class-use\SerialPort.html
+* doc\com\ums\upos\uapi\device\serialport\package-frame.html
+* doc\com\ums\upos\uapi\device\serialport\package-summary.html
+* doc\com\ums\upos\uapi\device\serialport\package-tree.html
+* doc\com\ums\upos\uapi\device\serialport\package-use.html
+* doc\com\ums\upos\uapi\emv\
+* doc\com\ums\upos\uapi\emv\EmvAidPara.html
+* doc\com\ums\upos\uapi\emv\EmvAlgorithmType.html
+* doc\com\ums\upos\uapi\emv\EmvCapk.html
+* doc\com\ums\upos\uapi\emv\EmvCardLog.html
+* doc\com\ums\upos\uapi\emv\EmvChannelType.html
+* doc\com\ums\upos\uapi\emv\EmvDataSource.html
+* doc\com\ums\upos\uapi\emv\EmvOnlineRequest.html
+* doc\com\ums\upos\uapi\emv\EmvOnlineResult.html
+* doc\com\ums\upos\uapi\emv\EmvProcessResult.html
+* doc\com\ums\upos\uapi\emv\EmvTermCfgConstrants.html
+* doc\com\ums\upos\uapi\emv\EmvTransDataConstrants.html
+* doc\com\ums\upos\uapi\emv\EmvTransFlow.html
+* doc\com\ums\upos\uapi\emv\class-use\
+* doc\com\ums\upos\uapi\emv\class-use\EmvAidPara.html
+* doc\com\ums\upos\uapi\emv\class-use\EmvAlgorithmType.html
+* doc\com\ums\upos\uapi\emv\class-use\EmvCapk.html
+* doc\com\ums\upos\uapi\emv\class-use\EmvCardLog.html
+* doc\com\ums\upos\uapi\emv\class-use\EmvChannelType.html
+* doc\com\ums\upos\uapi\emv\class-use\EmvDataSource.html
+* doc\com\ums\upos\uapi\emv\class-use\EmvOnlineRequest.html
+* doc\com\ums\upos\uapi\emv\class-use\EmvOnlineResult.html
+* doc\com\ums\upos\uapi\emv\class-use\EmvProcessResult.html
+* doc\com\ums\upos\uapi\emv\class-use\EmvTermCfgConstrants.html
+* doc\com\ums\upos\uapi\emv\class-use\EmvTransDataConstrants.html
+* doc\com\ums\upos\uapi\emv\class-use\EmvTransFlow.html
+* doc\com\ums\upos\uapi\emv\package-frame.html
+* doc\com\ums\upos\uapi\emv\package-summary.html
+* doc\com\ums\upos\uapi\emv\package-tree.html
+* doc\com\ums\upos\uapi\emv\package-use.html
+* doc\com\ums\upos\uapi\engine\
+* doc\com\ums\upos\uapi\engine\DeviceAuthConstrants.html
+* doc\com\ums\upos\uapi\engine\DeviceInfoConstrants.html
+* doc\com\ums\upos\uapi\engine\class-use\
+* doc\com\ums\upos\uapi\engine\class-use\DeviceAuthConstrants.html
+* doc\com\ums\upos\uapi\engine\class-use\DeviceInfoConstrants.html
+* doc\com\ums\upos\uapi\engine\package-frame.html
+* doc\com\ums\upos\uapi\engine\package-summary.html
+* doc\com\ums\upos\uapi\engine\package-tree.html
+* doc\com\ums\upos\uapi\engine\package-use.html
+* doc\com\ums\upos\uapi\network\
+* doc\com\ums\upos\uapi\network\NetWorkParams.html
+* doc\com\ums\upos\uapi\network\NetWorkType.html
+* doc\com\ums\upos\uapi\network\WifiParam.html
+* doc\com\ums\upos\uapi\network\class-use\
+* doc\com\ums\upos\uapi\network\class-use\NetWorkParams.html
+* doc\com\ums\upos\uapi\network\class-use\NetWorkType.html
+* doc\com\ums\upos\uapi\network\class-use\WifiParam.html
+* doc\com\ums\upos\uapi\network\package-frame.html
+* doc\com\ums\upos\uapi\network\package-summary.html
+* doc\com\ums\upos\uapi\network\package-tree.html
+* doc\com\ums\upos\uapi\network\package-use.html
+* doc\com\ums\upos\uapi\package-frame.html
+* doc\com\ums\upos\uapi\package-summary.html
+* doc\com\ums\upos\uapi\package-tree.html
+* doc\com\ums\upos\uapi\package-use.html
+* doc\constant-values.html
+* doc\deprecated-list.html
+* doc\help-doc.html
+* doc\index-files\
+* doc\index-files\index-1.html
+* doc\index-files\index-10.html
+* doc\index-files\index-11.html
+* doc\index-files\index-12.html
+* doc\index-files\index-13.html
+* doc\index-files\index-14.html
+* doc\index-files\index-15.html
+* doc\index-files\index-16.html
+* doc\index-files\index-17.html
+* doc\index-files\index-18.html
+* doc\index-files\index-19.html
+* doc\index-files\index-2.html
+* doc\index-files\index-20.html
+* doc\index-files\index-21.html
+* doc\index-files\index-22.html
+* doc\index-files\index-23.html
+* doc\index-files\index-24.html
+* doc\index-files\index-3.html
+* doc\index-files\index-4.html
+* doc\index-files\index-5.html
+* doc\index-files\index-6.html
+* doc\index-files\index-7.html
+* doc\index-files\index-8.html
+* doc\index-files\index-9.html
+* doc\index.html
+* doc\overview-frame.html
+* doc\overview-summary.html
+* doc\overview-tree.html
+* doc\package-list
+* doc\script.js
+* doc\serialized-form.html
+* doc\stylesheet.css
+* proguard-project.txt
+* proguard\
+* proguard\anypaysdk.jar
+* proguard\anypaysdk1.jar
+* proguard\anypaysdk2.jar
+* proguard\anypaysdkold.jar
+* proguard\config\
+* proguard\config\proguard.pro
+* proguard\lib\
+* proguard\lib\android.jar
+* proguard\lib\proguard.jar
+* proguard\print.map
+* proguard\proguard.bat
+* proguard\update_sdk_to_anypay.bat
+
+Replaced Jars with Dependencies:
+--------------------------------
+The importer recognized the following .jar files as third party
+libraries and replaced them with Gradle dependencies instead. This has
+the advantage that more explicit version information is known, and the
+libraries can be updated automatically. However, it is possible that
+the .jar file in your project was of an older version than the
+dependency we picked, which could render the project not compileable.
+You can disable the jar replacement in the import wizard and try again:
+
+gson-2.3.1.jar => com.google.code.gson:gson:2.3.1
+
+Moved Files:
+------------
+Android Gradle projects use a different directory structure than ADT
+Eclipse projects. Here's how the projects were restructured:
+
+* AndroidManifest.xml => anyPaySdkNew\src\main\AndroidManifest.xml
+* assets\ => anyPaySdkNew\src\main\assets
+* libs\armeabi\libsqlc-native-driver.so => anyPaySdkNew\src\main\jniLibs\armeabi\libsqlc-native-driver.so
+* libs\connect_api_beta_noauth.jar => anyPaySdkNew\libs\connect_api_beta_noauth.jar
+* libs\cordova.jar => anyPaySdkNew\libs\cordova.jar
+* libs\dom4j-2.0.0-ALPHA-2.jar => anyPaySdkNew\libs\dom4j-2.0.0-ALPHA-2.jar
+* libs\jaxen-1.1.jar => anyPaySdkNew\libs\jaxen-1.1.jar
+* libs\sqlite-connector.jar => anyPaySdkNew\libs\sqlite-connector.jar
+* libs\zxing.jar => anyPaySdkNew\libs\zxing.jar
+* lint.xml => anyPaySdkNew\lint.xml
+* res\ => anyPaySdkNew\src\main\res\
+* src\ => anyPaySdkNew\src\main\java\
+* src\com\ums\upos\sdk\atm\cashservice\aidl\IATMDevice_Service.aidl => anyPaySdkNew\src\main\aidl\com\ums\upos\sdk\atm\cashservice\aidl\IATMDevice_Service.aidl
+* src\com\ums\upos\sdk\atm\cashservice\aidl\OnActiveLogListener.aidl => anyPaySdkNew\src\main\aidl\com\ums\upos\sdk\atm\cashservice\aidl\OnActiveLogListener.aidl
+* src\com\ums\upos\sdk\atm\cashservice\aidl\OnAlarmListerner.aidl => anyPaySdkNew\src\main\aidl\com\ums\upos\sdk\atm\cashservice\aidl\OnAlarmListerner.aidl
+* src\com\ums\upos\sdk\atm\cashservice\aidl\OnCashDispenseListener.aidl => anyPaySdkNew\src\main\aidl\com\ums\upos\sdk\atm\cashservice\aidl\OnCashDispenseListener.aidl
+* src\com\ums\upos\sdk\atm\cashservice\aidl\OnCashGettedLinstener.aidl => anyPaySdkNew\src\main\aidl\com\ums\upos\sdk\atm\cashservice\aidl\OnCashGettedLinstener.aidl
+* src\com\ums\upos\sdk\atm\cashservice\aidl\OnCashRecoverListener.aidl => anyPaySdkNew\src\main\aidl\com\ums\upos\sdk\atm\cashservice\aidl\OnCashRecoverListener.aidl
+* src\com\ums\upos\sdk\atm\cashservice\aidl\OnCashSNRListener.aidl => anyPaySdkNew\src\main\aidl\com\ums\upos\sdk\atm\cashservice\aidl\OnCashSNRListener.aidl
+* src\com\ums\upos\sdk\atm\cashservice\aidl\OnDevStatusListener.aidl => anyPaySdkNew\src\main\aidl\com\ums\upos\sdk\atm\cashservice\aidl\OnDevStatusListener.aidl
+* src\com\ums\upos\sdk\atm\cashservice\bean\CASSETTEID.aidl => anyPaySdkNew\src\main\aidl\com\ums\upos\sdk\atm\cashservice\bean\CASSETTEID.aidl
+* src\com\ums\upos\sdk\atm\cashservice\bean\CASSETTEINFO.aidl => anyPaySdkNew\src\main\aidl\com\ums\upos\sdk\atm\cashservice\bean\CASSETTEINFO.aidl
+* src\com\ums\upos\sdk\atm\cashservice\bean\LogObject.aidl => anyPaySdkNew\src\main\aidl\com\ums\upos\sdk\atm\cashservice\bean\LogObject.aidl
+* src\com\ums\upos\uapi\card\cpu\APDUCmd.aidl => anyPaySdkNew\src\main\aidl\com\ums\upos\uapi\card\cpu\APDUCmd.aidl
+* src\com\ums\upos\uapi\card\cpu\CPUCardHandler.aidl => anyPaySdkNew\src\main\aidl\com\ums\upos\uapi\card\cpu\CPUCardHandler.aidl
+* src\com\ums\upos\uapi\card\industry\IndustryCardCmd.aidl => anyPaySdkNew\src\main\aidl\com\ums\upos\uapi\card\industry\IndustryCardCmd.aidl
+* src\com\ums\upos\uapi\card\industry\IndustryCardHandler.aidl => anyPaySdkNew\src\main\aidl\com\ums\upos\uapi\card\industry\IndustryCardHandler.aidl
+* src\com\ums\upos\uapi\card\mifare\M1CardHandler.aidl => anyPaySdkNew\src\main\aidl\com\ums\upos\uapi\card\mifare\M1CardHandler.aidl
+* src\com\ums\upos\uapi\device\beeper\Beeper.aidl => anyPaySdkNew\src\main\aidl\com\ums\upos\uapi\device\beeper\Beeper.aidl
+* src\com\ums\upos\uapi\device\cashbox\CashBoxDriver.aidl => anyPaySdkNew\src\main\aidl\com\ums\upos\uapi\device\cashbox\CashBoxDriver.aidl
+* src\com\ums\upos\uapi\device\cashbox\CashBoxListener.aidl => anyPaySdkNew\src\main\aidl\com\ums\upos\uapi\device\cashbox\CashBoxListener.aidl
+* src\com\ums\upos\uapi\device\led\LEDDriver.aidl => anyPaySdkNew\src\main\aidl\com\ums\upos\uapi\device\led\LEDDriver.aidl
+* src\com\ums\upos\uapi\device\modem\DialParam.aidl => anyPaySdkNew\src\main\aidl\com\ums\upos\uapi\device\modem\DialParam.aidl
+* src\com\ums\upos\uapi\device\modem\ModemDriver.aidl => anyPaySdkNew\src\main\aidl\com\ums\upos\uapi\device\modem\ModemDriver.aidl
+* src\com\ums\upos\uapi\device\modem\OnDialListener.aidl => anyPaySdkNew\src\main\aidl\com\ums\upos\uapi\device\modem\OnDialListener.aidl
+* src\com\ums\upos\uapi\device\pinpad\OnPinPadInputListener.aidl => anyPaySdkNew\src\main\aidl\com\ums\upos\uapi\device\pinpad\OnPinPadInputListener.aidl
+* src\com\ums\upos\uapi\device\pinpad\PinPad.aidl => anyPaySdkNew\src\main\aidl\com\ums\upos\uapi\device\pinpad\PinPad.aidl
+* src\com\ums\upos\uapi\device\printer\OnPrintListener.aidl => anyPaySdkNew\src\main\aidl\com\ums\upos\uapi\device\printer\OnPrintListener.aidl
+* src\com\ums\upos\uapi\device\printer\Printer.aidl => anyPaySdkNew\src\main\aidl\com\ums\upos\uapi\device\printer\Printer.aidl
+* src\com\ums\upos\uapi\device\reader\icc\IccCardReader.aidl => anyPaySdkNew\src\main\aidl\com\ums\upos\uapi\device\reader\icc\IccCardReader.aidl
+* src\com\ums\upos\uapi\device\reader\icc\OnSearchIccCardListener.aidl => anyPaySdkNew\src\main\aidl\com\ums\upos\uapi\device\reader\icc\OnSearchIccCardListener.aidl
+* src\com\ums\upos\uapi\device\reader\mag\MagCardInfoEntity.aidl => anyPaySdkNew\src\main\aidl\com\ums\upos\uapi\device\reader\mag\MagCardInfoEntity.aidl
+* src\com\ums\upos\uapi\device\reader\mag\MagCardReader.aidl => anyPaySdkNew\src\main\aidl\com\ums\upos\uapi\device\reader\mag\MagCardReader.aidl
+* src\com\ums\upos\uapi\device\reader\mag\OnSearchMagCardListener.aidl => anyPaySdkNew\src\main\aidl\com\ums\upos\uapi\device\reader\mag\OnSearchMagCardListener.aidl
+* src\com\ums\upos\uapi\device\scanner\InnerScanner.aidl => anyPaySdkNew\src\main\aidl\com\ums\upos\uapi\device\scanner\InnerScanner.aidl
+* src\com\ums\upos\uapi\device\scanner\OnScannedListener.aidl => anyPaySdkNew\src\main\aidl\com\ums\upos\uapi\device\scanner\OnScannedListener.aidl
+* src\com\ums\upos\uapi\device\serialport\SerialPortDriver.aidl => anyPaySdkNew\src\main\aidl\com\ums\upos\uapi\device\serialport\SerialPortDriver.aidl
+* src\com\ums\upos\uapi\emv\EmvAidPara.aidl => anyPaySdkNew\src\main\aidl\com\ums\upos\uapi\emv\EmvAidPara.aidl
+* src\com\ums\upos\uapi\emv\EmvCapk.aidl => anyPaySdkNew\src\main\aidl\com\ums\upos\uapi\emv\EmvCapk.aidl
+* src\com\ums\upos\uapi\emv\EmvCardLog.aidl => anyPaySdkNew\src\main\aidl\com\ums\upos\uapi\emv\EmvCardLog.aidl
+* src\com\ums\upos\uapi\emv\EmvHandler.aidl => anyPaySdkNew\src\main\aidl\com\ums\upos\uapi\emv\EmvHandler.aidl
+* src\com\ums\upos\uapi\emv\OnEmvProcessListener.aidl => anyPaySdkNew\src\main\aidl\com\ums\upos\uapi\emv\OnEmvProcessListener.aidl
+* src\com\ums\upos\uapi\engine\DeviceServiceEngine.aidl => anyPaySdkNew\src\main\aidl\com\ums\upos\uapi\engine\DeviceServiceEngine.aidl
+* src\com\ums\upos\uapi\engine\OnUninstallAppListener.aidl => anyPaySdkNew\src\main\aidl\com\ums\upos\uapi\engine\OnUninstallAppListener.aidl
+* src\com\ums\upos\uapi\network\NetWorkHandler.aidl => anyPaySdkNew\src\main\aidl\com\ums\upos\uapi\network\NetWorkHandler.aidl
+* src\com\ums\upos\uapi\network\NetWorkListener.aidl => anyPaySdkNew\src\main\aidl\com\ums\upos\uapi\network\NetWorkListener.aidl
+
+Next Steps:
+-----------
+You can now build the project. The Gradle project needs network
+connectivity to download dependencies.
+
+Bugs:
+-----
+If for some reason your project does not build, and you determine that
+it is due to a bug or limitation of the Eclipse to Gradle importer,
+please file a bug at http://b.android.com with category
+Component-Tools.
+
+(This import summary is for your information only, and can be deleted
+after import once you are satisfied with the results.)
